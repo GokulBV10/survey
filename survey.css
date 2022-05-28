@@ -1,0 +1,124 @@
+body {
+    background-image: url("bg.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: block;
+    margin: 0px;
+}
+h1 {
+    font-size: 40px;
+    text-align: center;
+    text-decoration: overline underline;
+}
+.form-control {
+    padding: 10px;
+}
+form#form {
+    background: #f0f8ffdb;
+    margin: 100px;
+    padding: 30px;
+}
+label.radio {
+    display: flow-root;
+    cursor: pointer;
+    font-size: 25px;
+    padding: 2px;
+    margin: 1px;
+    margin-left: 13px;
+    margin-right: 1115px;
+}
+input#name {
+    border-radius: 22px;
+    text-align: center;
+    width: 195px;
+    height: 26px;
+    font-size: 19px;
+}
+input#Mail {
+    border-radius: 22px;
+    text-align: center;
+    width: 250px;
+    height: 26px;
+    font-size: 19px;
+}
+label#label-name {
+    font-size: 35px;
+}
+label#label-Mail{
+    font-size: 35px;
+}
+label{
+    font-size: 35px;
+}
+textarea#comment {
+    margin: 12px;
+    color: black;
+    width: 250px;
+    height: 50px;
+    text-align: center;
+}
+label.radio:hover {
+    position: relative;
+    bottom:3px;
+    right: 3px;
+    color: crimson;
+    text-decoration: underline;
+    font-weight: bold;
+    margin-right: 1110px;
+}
+h4.next {
+    text-align: center;
+}
+a.next {
+    background: white;
+    border: 2px solid black;
+    padding: 11px;
+    border-radius: 50px;
+    font-size: 21px;
+}
+a.next:hover {
+    color: white;
+    background: dodgerblue;
+    text-decoration: none;
+    position: relative;
+    bottom: 3px;
+    right:3px
+}
+select#Team {
+    padding: 7px;
+    margin: 6px;
+    margin-left: 41px;
+    text-align: center;
+    width: 190px;
+    height: 38px;
+    font-size: 20px;
+}
+input#Test,input#ODI,input#T20 {
+    width: 15px;
+    height: 20px;
+}
+input#recommed-1,input#recommed-2,input#recommed-3 {
+    width: 20px;
+    height: 17px;
+}
+select#IPL {
+    width: 226px;
+    height: 30px;
+    text-align: center;
+    font-size: 17px;
+}
+h4.button {
+    padding: 10px;
+    display: inline-block;
+    position: relative;
+    left: 500px;
+}
+form#submit {
+    text-align: center;
+    background: #f0f8ffdb;
+    margin: 250px;
+    padding: 30px;
+    font-size: 74px;
+    font-style: italic;
+    font-weight: bold;
+}
